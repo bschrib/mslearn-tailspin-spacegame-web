@@ -1,9 +1,10 @@
 trigger:
   - '*'
   
-  pool:
+  - pool:
     vmImage: 'ubuntu-18.04'
-    demands: npm
+    demands: 
+    npm
   
   variables:
     buildConfiguration: 'Release'
